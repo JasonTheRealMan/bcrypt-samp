@@ -1,5 +1,5 @@
 {
-    "user": "lassir",
+    "user": "JasonTheRealMan",
     "repo": "bcrypt-samp",
     "include_path": "pawn",
     "resources": [
@@ -17,6 +17,6 @@
         }
     ],
     "runtime": {
-        "plugins": ["lassir/bcrypt-samp"]
+        "plugins": ["JasonTheRealMan/bcrypt-samp"]
     }
 }
