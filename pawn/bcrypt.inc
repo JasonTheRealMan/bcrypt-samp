@@ -37,8 +37,8 @@ enum BCRYPT_DEBUG_LEVEL {
 	BCRYPT_LOG_TRACE
 }
 
-native bcrypt_hash(key[], cost = 12, callback_name[], callback_format[] = "", {Float, _}:...);
-native bcrypt_check(password[], hash[], callback_name[], callback_format[] = "", {Float, _}:...);
+native bcrypt_hash(const key[], cost = 12, const callback_name[], const callback_format[] = "", {Float, _}:...);
+native bcrypt_check(const password[], hash[], const callback_name[], const callback_format[] = "", {Float, _}:...);
 native bcrypt_get_hash(dest[]);
 native bool:bcrypt_is_equal();
 native bool:bcrypt_needs_rehash(hash[], cost);
